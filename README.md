@@ -17,14 +17,14 @@
 - I'm going to use Linux Command Line.
     
 > __2. Networking for Web Developers:__
-- This course became my challenge. Now I know that if you want to set up and run Virtual Machine , you should make sure that
-    your computer supports this actions. This hack was given to me by sleepless night, when I was trying to understand what wass wrong
-    and why my VirtualBox didn't run. So, you shoud check up, if support for creating virtual machines is included. Where? in your Bios!
+- This course became my challenge. Now I know that if you want to set up and run Virtual Machine, you should make sure that
+   your computer supports this actions. This hack was given to me by sleepless night, when I was trying to understand what was wrong
+   and why my VirtualBox didn't run. So, you shoud check up, if support for creating virtual machines is included. Where? in your Bios!
 - Using Bios in this task.
 
 > __3. Networking for Web Developers:__
 - This course gives me much new information. IP, TPI, DNS, NAT, IPv4, IPv6, etc.  It was a little hard to perceive this information
-   in English. But all the lessons are good sructured and understandable on an intuitive level.
+  in English. But all the lessons are good sructured and understandable on an intuitive level.
 - It's cool now to understand how the Internet works.
 - And I'm going to use this information...😈
 
@@ -63,6 +63,7 @@
 ### Courses: Intro to HTML & CSS
 - This course was easy and remind me some basic concepts. And I liked the author walked through the wood  and compared the trees and html. Very pleasant pictures of nature.
 - Nothing new to me.
+- I use and I will use all items of these lessons.
 
 [Reference to the screenshots of the finished lessons. Task3](/task3.md)
 
@@ -76,6 +77,18 @@
 
 [Reference to the screenshots of the finished lessons. Task4](/task4.md)
 
-> _Cool extra materials! Mi-mi flex frogs and grid garden are fantastic._ 
+> _Cool extra materials! Mi-mi flex frogs :frog: and grid garden are fantastic._ 
 > _And great last article "11 things I learned reading the flexbox spec" made me to think about the importance of spec's knowledge._
 
+
+----------------------
+
+## Task 5
+
+### Courses: Intro to JS
+- Thanks for this course. Realy useful to the begginer in js (read--> me:innocent:). Material of lessons is presented easily and accessible. It was intresting to solve task and it was really cool when it worked.
+- I know that I will use it all in my future project. And JavaScript is coooooool!:sparkles:
+
+[Reference to the screenshots of the finished lessons. Task5](/task5.md)
+
+> 
