@@ -8,20 +8,20 @@
 
 ## Task 1
 
-### Coursese:
+### Courses:
 
-> 1. Linux Command Line Basics:
+> __1. Linux Command Line Basics:__
 - The amazing course to understand Linux Command Line Base for me (the person that did not know anything about this before).
 - I was pleasantly surprised that Linux was so friendly and easy to use.
 - I'm going to use Linux Command Line.
     
-> 2. Networking for Web Developers:
+> __2. Networking for Web Developers:__
 - This course became my challenge. Now I know that if you want to set up and run Virtual Machine , you should make sure that
     your computer supports this actions. This hack was given to me by sleepless night, when I was trying to understand what wass wrong
     and why my VirtualBox didn't run. So, you shoud check up, if support for creating virtual machines is included. Where? in your Bios!
 - Using Bios in this task.
 
-> 3. Networking for Web Developers:
+> __3. Networking for Web Developers:__
 - This course gives me much new information. IP, TPI, DNS, NAT, IPv4, IPv6, etc.  It was a little hard to perceive this information
    in English. But all the lessons are good sructured and understandable on an intuitive level.
 - It's cool now to understand how the Internet works.
@@ -32,5 +32,24 @@
 
 ### Articles:
 > _HTTP: The Protocol Every Web Developer Must Know - Part 1_
->_HTTP: The Protocol Every Web Developer Must Know - Part 2_
+> _HTTP: The Protocol Every Web Developer Must Know - Part 2_
 - These are really helpfull articles. It help to understand the concept of HTTP, its components and tools to using to view HTTP traffic.
+---------------------
+
+## Task 2
+
+### Courses:
+
+> 1. What is Version Control:
+- Really great course! Specially remember monotonous girls from lesson "Use Git and Github". 
+- It was useful to learn new commands and about new opportunities of using git.
+- I'll try to use it all.
+
+> 2. GitHub & Collaboration:
+- Intresting course to understand how and why you need work with other developers, how  and why to contribute to public project, refresh how to send a pull-requests, work with remote repository, etc.
+- I really understood why and how I should use git.
+- I would like to use these tools in future projects. 
+
+[Reference to the screenshots of the finished lessons. Task2](/task2.md)
+
+> _Extra materials were intresting and useful!_
