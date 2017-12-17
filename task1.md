@@ -1,6 +1,3 @@
-#Task 1#
-
-##Coursese:##
 
 > __1. Linux Command Line Basics:__
 
