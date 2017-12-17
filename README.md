@@ -20,11 +20,10 @@
 - This course became my challenge. Now I know that if you want to set up and run Virtual Machine, you should make sure that
    your computer supports this actions. This hack was given to me by sleepless night, when I was trying to understand what was wrong
    and why my VirtualBox didn't run. So, you shoud check up, if support for creating virtual machines is included. Where? in your Bios!
-- Using Bios in this task.
+ - A thing, that surprised me was using Bios in this task.
 
 > __3. Networking for Web Developers:__
-- This course gives me much new information. IP, TPI, DNS, NAT, IPv4, IPv6, etc.  It was a little hard to perceive this information
-  in English. But all the lessons are good sructured and understandable on an intuitive level.
+- This course provided me with a lot of new information. IP, TPI, DNS, NAT, IPv4, IPv6, etc.  It was a little hard to perceive this information in English. But all the lessons are good sructured and understandable on an intuitive level.
 - It's cool now to understand how the Internet works.
 - And I'm going to use this information...😈
 
@@ -50,7 +49,7 @@
 > 2. GitHub & Collaboration:
 - Intresting course to understand how and why you need work with other developers, how  and why to contribute to public project, refresh how to send a pull-requests, work with remote repository, etc.
 - I really understood why and how I should use git.
-- I would like to use these tools in future projects. 
+- I'm glad that I learned this information. I would like to use these tools in future projects. 
 
 [Reference to the screenshots of the finished lessons. Task2](/task2.md)
 
@@ -63,7 +62,7 @@
 ### Courses: Intro to HTML & CSS
 - This course was easy and remind me some basic concepts. And I liked the author walked through the wood  and compared the trees and html. Very pleasant pictures of nature.
 - Nothing new to me.
-- I use and I will use all items of these lessons.
+- I used, I use and I will use all items of these lessons forever and ever, ever, ever.:smile_cat:
 
 [Reference to the screenshots of the finished lessons. Task3](/task3.md)
 
@@ -73,7 +72,7 @@
 
 ### Courses: Responsive Web Design Fundamentals
 - Useful course. Refresh my flexbox knowledge, gives a good understanding why so important to use mobile-first conception. Authors explained in detail about media-queries and breakpoints. And touched on many other optimization topics.
-- The new thing that surprised me was existence of common responsive patterns (useful and intresting knowledge). I've never used it before. But now I will.
+- The new thing that surprised me was existence of common responsive patterns (useful and intresting knowledge). I've never used it before. But now I will. It will speed up me.
 
 [Reference to the screenshots of the finished lessons. Task4](/task4.md)
 
@@ -87,8 +86,22 @@
 
 ### Courses: Intro to JS
 - Thanks for this course. Realy useful to the begginer in js (read--> me:innocent:). Material of lessons is presented easily and accessible. It was intresting to solve task and it was really cool when it worked.
-- I know that I will use it all in my future project. And JavaScript is coooooool!:sparkles:
+- Guess what? Yep! There is nothing new: I will use it all in my future project. And JavaScript is coooooool!:sparkles:
 
 [Reference to the screenshots of the finished lessons. Task5](/task5.md)
 
-> 
+> Algorithms?! Okay...A challenge is thrown)
+
+----------------------
+
+## Task 6
+
+### Courses: Object Oriented JS
+- I think it is fundamental course.Funda(wait-wait-wait)mental.
+- Really! It was HARD, but very informative. Some topic I needed to watch few times and some of them I had to learn with a little help of our resources (A great book [Современный учебник Javascript](https://learn.javascript.ru/) helped me.)
+- Things that shook my mind: JavaScript’s variable scoping, closures, "this", protype delegation, decorator pattern,pseudoclasses and subclasses.
+
+[Reference to the screenshots of the finished lessons. Task6](/task6.md)
+
+> _Extra materials are good addition to the course. I liked the most  `a list of funny and tricky JavaScript examples "WTFJS"`.
+Downloaded on my Kindle the book "You Don't Know JS"._
