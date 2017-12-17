@@ -4,6 +4,7 @@
 ## Task 0
 - I delayed studying git for a long time. But your courses became a godsend. I saw that git was not hard for studing. Intresting and easy. That what I can say about this task. 
 - I'm going to use git further and now I want to learn more.
+
 ----------------------
 
 ## Task 1
@@ -34,6 +35,7 @@
 > _HTTP: The Protocol Every Web Developer Must Know - Part 1_
 > _HTTP: The Protocol Every Web Developer Must Know - Part 2_
 - These are really helpfull articles. It help to understand the concept of HTTP, its components and tools to using to view HTTP traffic.
+
 ----------------------
 
 ## Task 2
@@ -53,12 +55,27 @@
 [Reference to the screenshots of the finished lessons. Task2](/task2.md)
 
 > _Extra materials were intresting and useful!_
+
 ----------------------
 
 ## Task 3
 
 ### Courses: Intro to HTML & CSS
 - This course was easy and remind me some basic concepts. And I liked the author walked through the wood  and compared the trees and html. Very pleasant pictures of nature.
-- Nothing new for me.
+- Nothing new to me.
 
 [Reference to the screenshots of the finished lessons. Task3](/task3.md)
+
+----------------------
+
+## Task 4
+
+### Courses: Responsive Web Design Fundamentals
+- Useful course. Refresh my flexbox knowledge, gives a good understanding why so important to use mobile-first conception. Authors explained in detail about media-queries and breakpoints. And touched on many other optimization topics.
+- The new thing that surprised me was existence of common responsive patterns (useful and intresting knowledge). I've never used it before. But now I will.
+
+[Reference to the screenshots of the finished lessons. Task4](/task4.md)
+
+> _Cool extra materials! Mi-mi flex frogs and grid garden are fantastic._ 
+> _And great last article "11 things I learned reading the flexbox spec" made me to think about the importance of spec's knowledge._
+
