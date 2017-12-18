@@ -33,7 +33,7 @@
 ### Articles:
 > _HTTP: The Protocol Every Web Developer Must Know - Part 1_
 > _HTTP: The Protocol Every Web Developer Must Know - Part 2_
-- These are really helpfull articles. It help to understand the concept of HTTP, its components and tools to using to view HTTP traffic.
+- These are really helpfull articles. It helps to understand the concept of HTTP, its components and tools for reviewing (supervising) HTTP traffic.
 
 ----------------------
 
@@ -42,7 +42,7 @@
 ### Courses:
 
 > 1. What is Version Control:
-- Really great course! Specially remember monotonous girls from lesson "Use Git and Github". 
+- Really great course! Especially in compare with monotonous girls from lesson "Use Git and Github". 
 - It was useful to learn new commands and about new opportunities of using git.
 - I'll try to use it all.
 
@@ -71,7 +71,7 @@
 ## Task 4
 
 ### Courses: Responsive Web Design Fundamentals
-- Useful course. Refresh my flexbox knowledge, gives a good understanding why so important to use mobile-first conception. Authors explained in detail about media-queries and breakpoints. And touched on many other optimization topics.
+- Useful course. Refreshed my flexbox knowledge, gives a good understanding why so important to use mobile-first conception. Authors explained in detail about media-queries and breakpoints. And touched on many other optimization topics.
 - The new thing that surprised me was existence of common responsive patterns (useful and intresting knowledge). I've never used it before. But now I will. It will speed up me.
 
 [Reference to the screenshots of the finished lessons. Task4](/task4.md)
@@ -85,21 +85,22 @@
 ## Task 5
 
 ### Courses: Intro to JS
-- Thanks for this course. Realy useful to the begginer in js (read--> me:innocent:). Material of lessons is presented easily and accessible. It was intresting to solve task and it was really cool when it worked.
-- Guess what? Yep! There is nothing new: I will use it all in my future project. And JavaScript is coooooool!:sparkles:
+- Thanks for this course. Realy useful to the begginer in js (read--> me:innocent:). Materials of lessons are presented easily and accessible. It was intresting to solve task and it was really cool when it worked.
+- Guess what? Yep! There is nothing new: I will use it. And JavaScript is my Love at first sight!:heart_eyes_cat:
 
 [Reference to the screenshots of the finished lessons. Task5](/task5.md)
 
-> Algorithms?! Okay...A challenge is thrown)
+> Algorithms?! Okay...A challenge is accepted)
 
 ----------------------
 
 ## Task 6
 
 ### Courses: Object Oriented JS
-- I think it is fundamental course.Funda(wait-wait-wait)mental.
-- Really! It was HARD, but very informative. Some topic I needed to watch few times and some of them I had to learn with a little help of our resources (A great book [Современный учебник Javascript](https://learn.javascript.ru/) helped me.)
+- I think it is fundamental course. Funda(wait-wait-wait)mental.
+- Really! It was new and very informative. Some topic I needed to watch few times and some of them I had to learn with a little help of our resources (A great book [Современный учебник Javascript](https://learn.javascript.ru/) helped me.)
 - Things that shook my mind: JavaScript’s variable scoping, closures, "this", protype delegation, decorator pattern,pseudoclasses and subclasses.
+- I liked the Object Oriented Conception. It really good represents real world. But also I know JS includes functional paradigm.
 
 [Reference to the screenshots of the finished lessons. Task6](/task6.md)
 
