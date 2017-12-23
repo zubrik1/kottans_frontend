@@ -38,11 +38,6 @@ p{
     left:0;
 }
 
-/*
-.flipper:hover{
-    transform: rotateY(180deg);
-}
-*/
 .back {
     z-index: 2;
     transform: rotateY(0deg);
