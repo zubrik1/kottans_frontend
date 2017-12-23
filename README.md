@@ -106,3 +106,16 @@
 
 > _Extra materials are good addition to the course. I liked the most  `a list of funny and tricky JavaScript examples "WTFJS"`.
 Downloaded on my Kindle the book "You Don't Know JS"._
+
+----------------------
+
+## Task 7
+
+### Offline Web Applications
+- All course information was new for me. Submission of material is cool.
+- Thing that surprised me was the ability to make the web application work offline. Realy, we can do this! To make it a mobile or desktop program that functions  in the absence of communication with the Internet, and also in case of a server failure. Cool.
+- I'm going to learn this theme deeper.
+
+
+[Reference to the screenshots of the finished lessons. Task7](/task7.md)
+
