@@ -119,3 +119,14 @@ Downloaded on my Kindle the book "You Don't Know JS"._
 
 [Reference to the screenshots of the finished lessons. Task7](/task7.md)
 
+----------------------
+
+## Task 8
+
+### To create Memory-Pair Came
+ As for me it was the most intresting part. Yep, I had to work a lot to accomplish this task. But the result was worth. 
+
+>[Reference to the files of the game. Task8](https://github.com/zubrik1/kottans_frontend/tree/master/task%208)
+
+>[Reference to the gh-page of the game. Task8](https://zubrik1.github.io/)
+
