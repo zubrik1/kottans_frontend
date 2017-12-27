@@ -12,8 +12,6 @@ console.log(pictures);
 shuffle();
 renderPictures();
 
-
-//Перемешиваем элементы массива
 function shuffle() {
     for (let i = 0; i < pictures.length; i++) {
         const randomIndex = Math.floor(Math.random() * 10);
