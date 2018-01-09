@@ -130,3 +130,13 @@ Downloaded on my Kindle the book "You Don't Know JS"._
 
 >[Reference to the gh-page of the game. Task8](https://zubrik1.github.io/)
 
+----------------------
+
+## Task 9
+
+### Website Performance Optimization
+- The course and extra materias  are intersting and useful.  
+
+[Reference to the screenshots of the finished lessons. Task9](/task9.md)
+
+
