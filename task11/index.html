@@ -91,31 +91,33 @@
         <table class="loaded">
           <tr>
             <th>File Name</th>
-            <th>File Size</th>
-            <th>Number of words</th>
-            <th>Remove</th>
+            <th class="normalize">File Size</th>
+            <th class="normalize">Number of words</th>
+            <th class="remove">Remove</th>
           </tr>
           <tr>
             <td><i class="fas fa-file-alt"></i>
                 business_operations.docx</td>
             <td>78kb</td>
             <td>842</td>
-            <td class="remove"><i class="fas fa-trash" aria-hidden="true"></i></td>
+            <td class="remove"><i class="fas fa-trash" aria-hidden="true"></i> </td>
           </tr>
           <tr>
               <td><i class="fas fa-file-alt"></i>
                   business_financial.docx</td>
               <td>26kb</td>
               <td>2,326</td>
-              <td class="remove"><i class="fas fa-trash" aria-hidden="true"></i></td>
+              <td class="remove"><i class="fas fa-trash" aria-hidden="true"></i> </td>
           </tr>
         </table>
       </fieldset>
 
       <fieldset class="select-language">
         <h1>Choose your language pairings</h1>
-        <label for="langFrom" class = "langlabel">From</label>
-          <select  id="langFrom" name="multi">
+        <section class="lang">
+        <label for="langFrom" class = "langlabel">From</label>        
+        <div class="select-custom">
+        <select  id="langFrom" name="multi">           
             <option>English</option>
             <option>Ukrainian</option>
             <option>Arabic</option>
@@ -123,10 +125,12 @@
             <option>German</option>
             <option>Spain</option>
             <option>French</option>
-          </select><br>
+          </select></div><br></section>
 
+      <section class="lang">
         <label for="langTo" class = "langlabel">To</label>
-          <select  id="langTo" name="multi">
+        <div class="select-custom langTo">
+        <select  id="langTo" name="multi">          
             <option>English</option>
             <option>Ukrainian</option>
             <option selected>Arabic</option>
@@ -134,10 +138,11 @@
             <option>German</option>
             <option>Spain</option>
             <option>French</option>
-          </select>
+          </select>  </div>
 
         <label for="langTo2" class = "langlabel">To</label>
-          <select  id="langTo2" name="multi">
+        <div class="select-custom langTo2">
+        <select  id="langTo2" name="multi">         
             <option>English</option>
             <option selected>Ukrainian</option>
             <option>Arabic</option>
@@ -145,10 +150,11 @@
             <option>German</option>
             <option>Spain</option>
             <option>French</option>
-          </select>
+          </select></div>
 
         <button type="button" class="removeLang"><i class="fas fa-trash" aria-hidden="true"></i></button>
-        <button type="button" class="addLang">+ Add </button>           
+        <button type="button" class="addLang">+ Add </button>  
+      </section>         
       </fieldset>
 
       <section class="details form-block">
@@ -157,15 +163,15 @@
         <input type="radio" id="friendly" name="tone" class="input-hide" required >
         <label for="friendly">
           <i class="fas fa-comments" aria-hidden="true"></i>
-              Friendly / Casual</label>
+               Friendly / Casual</label>
         <input type="radio" id="pro" name="tone" checked class="input-hide" required> 
         <label for="pro">
           <i class="fas fa-suitcase" aria-hidden="true"></i>
-              Corporate / Pro</label>
+               Corporate / Pro</label>
         <input type="radio" id="media" name="tone" class="input-hide" required>
         <label for="media">
           <i class="fas fa-bullhorn" aria-hidden="true"></i>  
-              Media / Format</label>
+               Media / Format</label>
         </fieldset>
       
         <fieldset class="urgent-block">
@@ -226,7 +232,8 @@
 
           <div class="card-details">
                 <label for="card-number"><strong>Card number:</strong>
-                    <input type="number" id="card-number" name="cardnumber" required min="10000000000" placeholder=" ">
+                    <input type="text" id="card-number" name="cardnumber" required
+                     pattern="[0-9]{10,}" placeholder=" ">
                 </label>
                 <label for="card-date"><strong>Expiry date:</strong>
                     <input type="text" id="card-date" name="expiration" placeholder="DD/MM/YY" required 
@@ -274,14 +281,9 @@
           <i class="fas fa-share-alt" aria-hidden="true"></i>
         Connect with us</h5>
       <ul>
-        <li><a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i>
-          Facebook</a></li>
-      <li>
-        <a href="#"><i class="fab fa-twitter" aria-hidden="true"></i>
-          Twitter</a></li>
-      <li> 
-        <a href="#"><i class="fab fa-linkedin-in" aria-hidden="true"></i>
-          Linkedin</a></li>
+        <li class="fb"><a href="#">Facebook</a></li>
+        <li class="twit"><a href="#">Twitter</a></li>
+        <li class="linked"><a href="#"></i>Linkedin</a></li>
       </ul>
     </div>
     <div class="logo-bottom footer-item"></div>

@@ -5,7 +5,8 @@
 body{
     background-color: #ECEEF4;
     counter-reset: section; 
-    font-family: 'Nunito Sans', Georgia,  sans-serif;   
+    font-family: 'Nunito Sans', Georgia,  sans-serif;  
+ 
 }
 
 aside{
@@ -27,6 +28,7 @@ aside a{
     text-transform: uppercase;
     text-decoration: none;
     font-family: 'proxima_nova_altbold', Georgia,  sans-serif;
+    font-weight: 400;
     font-size: 0.7em;
     border: 1px solid #d5d7e0;
     padding: 1.5em 3em;
@@ -78,7 +80,7 @@ h1::before {
     text-align: center;
     line-height: 2.3;
     font-family: 'proxima_nova_altbold';
-    font-weight: 600; 
+    font-weight: 400;
     border: 1px solid #6E768F; 
     display: block;
     width: 36px;
@@ -102,13 +104,13 @@ h2{
     text-transform: uppercase;
     letter-spacing: 0.05em;
     font-family: 'proxima_nova_altbold', Georgia, sans-serif;
-    font-weight: bold;
+    font-weight: 400;
     color:  #6E768F; 
     position: relative;   
     padding-left: 3em;
 }
 .order-info{
-    width: 52%;
+    width: 48%;
     padding: 2em;
     padding-right: 0;
     padding-bottom: 1em;
@@ -118,10 +120,10 @@ h2{
     padding: 0 0.5em;
     position: absolute;
     top:-0.3em;
-    left:0;
+    left:-0.25em;
 }
 table{
-    padding: 1.7em 0 1.5em 2.5em ;
+    padding: 1.7em 0 1.5em 2.5em;
     width: 100%;
 }
 th{ 
@@ -129,7 +131,7 @@ th{
     text-transform: uppercase;
     font-size: 0.75em;
     font-family: 'proxima_nova_altbold', Georgia, sans-serif;
-    font-weight: 600;
+    font-weight: 400;
     letter-spacing: 0.05em;    
 }
 td{
@@ -139,7 +141,7 @@ td{
 
 /*---------------------1.2. Top button block---------------*/
 button{ 
-    width: 160px;
+    width: 14em;
     height: 50px;
     border-radius: 4px;
     -webkit-box-pack: justify;
@@ -155,6 +157,7 @@ button{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-flow: column;
@@ -186,8 +189,8 @@ button{
     font-size: 1.5em;
     padding: 0 0.5em;
     position: absolute;
-    top:-0.2em;
-    left:-0.2em;
+    top: -0.2em;
+    left: -0.35em;
 }
 .center-info p{
     font-size: 0.7em;
@@ -205,8 +208,8 @@ address{
 }
 address a{
     font-size: 0.7em;
-    font-weight: 600;
     font-family: 'proxima_nova_altbold', Georgia, sans-serif;
+    font-weight: 400;
     text-decoration: none;
     color:  #6E768F; 
     font-style: normal;
@@ -282,6 +285,7 @@ input[name="select"]:checked + label{
 }
 input[name="select"]:focus + label{
     -webkit-box-shadow: inset 1px 1px 5px #444A62, inset -1px -1px 5px #444A62;
+            outline: -webkit-focus-ring-color auto 5px;
             box-shadow: inset 1px 1px 5px #444A62, inset -1px -1px 5px #444A62;
 }
 input[name="select"]:checked + label::after{
@@ -305,6 +309,7 @@ input[name="select"]:checked + label::after{
 h1 small{
     font-size: 0.6em;
     font-family: 'proxima_nova_ltthin', Georgia, sans-serif;
+    font-weight: 200;
     letter-spacing: 0em;
 }
 input[type="file"]:focus + label{
@@ -328,6 +333,7 @@ label[for="file"]{
 .loaded{
     border: 1px solid #d5d7e0;
     border-radius: 5px;
+    table-layout: auto;
 }
 .loaded th{
     padding: 0 0 0.5em;
@@ -341,53 +347,70 @@ label[for="file"]{
     padding-bottom: 0.5em;
     font-size: 0.8em
 }
-.fa-trash{
-    padding-left: 20%;;
+.normalize{
+    width: 20%;
+}
+.remove{
+    text-align: center;
+    width: 20%;
+   }
+.fa-trash{    
+    font-weight: bold;
+    font-size:1em;
 }
 
 /*-----------2.3.Form: Choose the language -----------*/
 .select-language{
     margin-top: 4em;
-}
+   }
 select[name="multi"]{    
-    border: 1px solid #d5d7e0;
-    border-radius: 4px;
-    background-color: #F7F7FA;
+    -webkit-appearance: none;  
+    -moz-appearance: none;
+    -ms-appearance: none;
+    background-color: transparent;
     color: #6E768F;   
-    padding: 0.9em 3.25em;
-    font-size: 0.9em;
-    margin-bottom: 2em;
-    position: relative;
-    z-index: 1;
+    padding: 0em 4.5em 0em 3em;
+    width: 100%;
+    height: 100%;
+    font-size: 0.9em; 
+    border: none;   
+}
+.select-custom select[name="multi"]:focus{
+    outline: 3px solid #76A7E1;
+}
+.select-custom{
+    display: inline-block;
+    width: 11em;
+    height: 2.8em;
+    border-radius: 4px;
+    border: 1px solid #d5d7e0;
+    overflow: hidden;
+    background-color: #F7F7FA;  
+    background-image: url(img/select_arrow.png);   
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+    margin-left: 1em; 
+}
+.lang{
+    display: flex;
+    align-items: center;
+    margin: 1em auto 2em;;
 }
 .langlabel{
     text-transform: uppercase;   
+    justify-content: center;
     font-size: 0.7em;
     display: inline-block;
     width: 4em;
-    text-align: right;
+    text-align: right;        
+}
+.langTo2{
+    margin-left: -1em;
     margin-right: 1em;
-    position: relative;  
 }
 label[for="langTo2"]{ 
-    margin-left: -3.5em;
-    color:#fff;
+    color: transparent;
  }
-.langlabel::after{
-    font-family: "FontAwesome";
-    content: "\f0d7";
-    font-size: 1.48em;
-    text-align: center;
-    padding: 0.75em 0.9em;
-    color:#6E768F;
-    display: block;    
-    z-index: 2;  
-    position: absolute;
-    top: -1.08em;
-    right: -11.5em;
-    background-color:#F7F7FA;
-    border-left: 1px solid #d5d7e0;  
-    }
 .removeLang{
      display: inline-block;
      width: 30px;
@@ -416,21 +439,21 @@ label[for="langTo2"]{
     margin: 1em;
     margin-left: 0;
     border-radius: 4px;
-    display: block;
     border: 1px solid #d5d7e0;
     background-color:#F7F7FA;
-    padding: 1.2em 1em;    
+    padding: 1.2em 1em; 
+    text-align: center;   
     display: -webkit-box;    
     display: -ms-flexbox;    
-    display: flex;  
-    -ms-flex-pack: distribute;  
-        justify-content: space-around;  
+    display: flex;      
+    -ms-flex-pack: distribute; 
+    justify-content: space-around;  
+    -webkit-justify-content: space-around; /* Safari 6.1+ */   
 }
 input[name="tone"]:checked + label{
     border: 5px solid #76A7E1;
 }
-input[name="tone"]:focus + label{
-    -webkit-box-shadow: inset 1px 1px 5px #444A62, inset -1px -1px 5px #444A62;
+input[name="tone"]:focus + label{  
             box-shadow: inset 1px 1px 5px #444A62, inset -1px -1px 5px #444A62;
 }
 input[name="tone"]:checked + label::after{
@@ -453,7 +476,7 @@ input[name="tone"]:checked + label::after{
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    margin: 2em auto 0;
+    margin: 4em auto 0;
 }
 .select-tone{
     width: 40%;
@@ -486,6 +509,7 @@ input[type="range"]::before{
     background-color: #D6D8E2;
     position: absolute;
     right: 0;
+    z-index:3;
 }
 input[type="range"]::after {
     content: " ";
@@ -496,6 +520,7 @@ input[type="range"]::after {
     background-color: #D6D8E2;
     position: absolute;
     left:0;
+    z-index: 3;
 }
 input[type="range"]::-webkit-slider-thumb{
     -webkit-appearance: none;
@@ -504,7 +529,7 @@ input[type="range"]::-webkit-slider-thumb{
     border-radius: 9px;
     background-color: #e5af5b;
     margin-top: -5px;
-    z-index: 2;
+    z-index: 5;
     cursor: pointer;
     position: relative;
 }
@@ -518,6 +543,7 @@ input[type="range"]::-moz-range-thumb{
     -webkit-appearance: none;
     width: 18px;
     height: 18px;
+    border: none;
     border-radius: 9px;
     background-color: #e5af5b;
     margin-top: -5px;
@@ -548,13 +574,11 @@ input[type="range"]::-ms-track{
     height: 9px;
     border-radius: 3.5px;
 }
-
-
-
 .range-label{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    width: 100%;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
@@ -563,11 +587,13 @@ input[type="range"]::-ms-track{
     font-size: 0.7em;
     letter-spacing: 0.05em;
 }
+
 .average{
     color: #e5af5b;
     font-weight: 600;    
     text-transform: uppercase;
     font-family: 'proxima_nova_altbold', Georgia, sans-serif;
+    font-weight: 400;
 }
 .urgent-block-info{
     display: -webkit-box;
@@ -586,7 +612,7 @@ h5{
     margin-bottom: 1em;
     font-size: 0.7em;
     font-family: 'proxima_nova_altbold', Georgia, sans-serif;
-    font-weight: 600;
+    font-weight: 400;
     letter-spacing: 0.05em;
 }
 .fa-info-circle{
@@ -604,20 +630,26 @@ h5{
 }
 .sign-up{
     margin-top: 3em;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
+}
+.sign-up a{
+    color: #A6ACC6;
 }
 .autorisation{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-top: 1em;
+    margin-top: 2em;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+            justify-content: flex-start;
 }
+
 .pay-input{
     padding: 1.2em;
     display: block;
     width: 22em;
     border-radius: 4px;
-    margin-top: 1em;
     border: 1px solid #d5d7e0;  
 }
 .pay-label{
@@ -626,6 +658,7 @@ h5{
     font-size: 0.7em;
     letter-spacing: 0.05em;
     font-family: 'proxima_nova_altbold', Georgia, sans-serif;
+    font-weight: 400;
 }
 
 /*--------- Payment information-html-validation-----------*/
@@ -643,11 +676,12 @@ h5{
 }
 /*------- Payment information-html-validation-end-----------*/
 
-.pay-label:first-child{
+.autorisation .pay-label:first-child{
     margin-right: 2em;
 }
-.pay-label strong{
-    padding: 1em;
+.pay-label strong{    
+    display: block;
+    margin: 1em;
 }
 .pay-input::-webkit-input-placeholder{
     font-size: 1.2em;
@@ -722,18 +756,26 @@ input[name="cards"]:checked + label::after{
     display: flex;
   }
 .card-details label{
-   margin-right: 2em;
+    margin-right: 2em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+            flex-direction: column;
   }
 .card-details label strong{
     text-transform: uppercase;
+    display: block;
     font-size: 0.7em;
     letter-spacing: 0.05em;
-    padding: 1em;
+    margin: 1em;
     font-family: 'proxima_nova_altbold', Georgia, sans-serif;
+    font-weight: 400;
   }
 .card-details input{
     display: block;
-    margin-top: 0.5em;
     border-radius: 4px;
     padding: 1em;
     font-size: 0.8em;
@@ -755,7 +797,7 @@ label[for="card-number"]::after{
     content: "\f1f0";
     position: absolute;
     background-color: #fff;
-    top: 1em;
+    top: 1.3em;
     right: 0.35em;
     color: #d5d7e0;
 }
@@ -794,19 +836,6 @@ label[for="card-number"]::after{
     color: #6E768F;
 }
 label[for="agree"]::before{
-    width: 10px;
-    height: 10px;
-    border: 1px solid #d5d7e0;
-    display: inline-block;
-    content: "";
-    border-radius: 2px;
-    position: absolute;
-    left: -20px;
-    }
-input[type="checkbox"]:focus + label[for="agree"]::before{
-   outline: 1px solid #76A7E1;
-}
-input[type="checkbox"]:checked ~ label::before{
     font-family: 'FontAwesome';
     width: 10px;
     height: 10px;
@@ -815,9 +844,16 @@ input[type="checkbox"]:checked ~ label::before{
     border-radius: 2px;
     content: "\f00c";
     position: absolute;
-    bottom: 0;
+    bottom: 0.1em;
     font-size: 10px;
     left: -20px;
+    color: transparent;
+   
+    }
+input[type="checkbox"]:focus + label[for="agree"]::before{
+   outline: 1px solid #76A7E1;
+}
+input[type="checkbox"]:checked ~ label::before{   
     color: #000;
     text-shadow: 2px 2px 5px rgb(102, 178, 250), 
     -2px -2px 5px rgb(81, 170, 253);  
@@ -876,26 +912,30 @@ h5{
 }
 .social-buttons li{
     position: relative;
-    margin-left: 2em;    
+    margin-left: 2.8em;    
 }
 .social-buttons li::before{
+    font-family: "FontAwesome";
+    font-size: 0.65em;
+    line-height: 2.1;
+    color:#444A62;
+    text-align: center;
     position: absolute;
     display: block;
-    content: "";
+    content: " ";
     width: 16px;
     height: 16px;
     background-color: #B0B6D4;
     border-radius: 50%;
     top: 0.2em;
-    left: -2.8em;
+    left: -4em;   
 }
-.fa-facebook-f,
-.fa-twitter,
-.fa-linkedin-in{
-    position: absolute;
-    top: 0.8em;
-    left: -3.4em;
-    font-size: 0.7em;
-    color: #444A62;     
-   
+.social-buttons .fb::before{
+    content: "\f09a";
+}
+.social-buttons .twit::before{
+    content: "\f099";
+}
+.social-buttons .linked::before{
+    content: "\f0e1";
 }
